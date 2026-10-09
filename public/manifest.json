@@ -1,0 +1,22 @@
+{
+  "name": "Amor, Saúde e Palavra em Movimento",
+  "short_name": "Amor, Saúde e Palavra em Movimento",
+  "description": "Um portal de bem-estar e espiritualidade que integra reflexões doutrinárias à prática da saúde e fisioterapia, oferecendo acolhimento e conhecimento à comunidade.",
+  "icons": [
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2D8659",
+  "background_color": "#F9F7F2",
+  "scope": "/"
+}

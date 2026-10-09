@@ -1,0 +1,26 @@
+{
+  "name": "site-flavinho",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Amor, Saúde e Palavra em Movimento - Flavio Henrique Bachi",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && npx firebase-tools deploy --only hosting:site-flavinho"
+  },
+  "dependencies": {
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.473.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.7"
+  }
+}
